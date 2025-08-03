@@ -1,0 +1,26 @@
+# Dependencies for both frontend and backend
+/server/node_modules
+/ai-notes-client/node_modules
+
+# Environment variables (VERY IMPORTANT for security)
+# This prevents your secret keys from being uploaded
+/server/.env
+/ai-notes-client/.env
+
+# Build output from React/Vite
+/ai-notes-client/dist
+/ai-notes-client/build
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db

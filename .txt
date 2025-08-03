@@ -1,0 +1,4 @@
+Study Notes: Introduction to Photosynthesis
+
+
+Photosynthesis is the critical process used by plants, algae, and some bacteria to convert light energy into chemical energy. This process takes place in the chloroplasts, which contain the pigment chlorophyll that absorbs sunlight. The primary inputs, or reactants, for photosynthesis are carbon dioxide (CO2) from the atmosphere and water (H2O) absorbed through the roots. Sunlight acts as the catalyst for the chemical reaction. The outputs, or products, are glucose (C6H112O6), a sugar that provides energy for the plant, and oxygen (O2), which is released back into the atmosphere as a byproduct. This process is fundamental for life on Earth as it produces the bulk of the oxygen we breathe.

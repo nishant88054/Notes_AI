@@ -149,6 +149,4 @@ The backend server provides the following RESTful API endpoints:
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License.

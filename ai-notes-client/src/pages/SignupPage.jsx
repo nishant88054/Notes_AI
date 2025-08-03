@@ -11,9 +11,8 @@ const SignupPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await signup({ email, password });
-      localStorage.setItem('token', data.token);
-      navigate('/');
+      await signup({ email, password });
+      navigate('/login');
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to sign up');
     }

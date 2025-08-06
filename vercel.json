@@ -8,19 +8,19 @@
     {
       "src": "ai-notes-client/package.json",
       "use": "@vercel/static-build",
-      "options": {
-        "distDir": "dist"
+      "config": {
+        "distDir": "ai-notes-client/dist"
       }
     }
   ],
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "/server/index.js"
+      "destination": "server/index.js"
     },
     {
       "source": "/(.*)",
-      "destination": "/ai-notes-client/dist/index.html"
+      "destination": "/index.html"
     }
   ]
 }

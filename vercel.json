@@ -6,10 +6,10 @@
       "use": "@vercel/node"
     },
     {
-      "src": "ai-notes-client/vite.config.js",
+      "src": "ai-notes-client/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist" 
+        "distDir": "dist"
       }
     }
   ],
@@ -20,7 +20,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/ai-notes-client/dist/index.html"
+      "destination": "/index.html"
     }
   ]
 }
